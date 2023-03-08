@@ -22,7 +22,6 @@ if __name__ == "__main__":
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-const mongoose = require('mongoose');
 
 const app = express();
 
