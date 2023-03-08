@@ -30,7 +30,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-app.get((req, res) => {
+app.get("/", (req, res) => {
     res.send("<h1>Hello World!</h1>")
 });
 
